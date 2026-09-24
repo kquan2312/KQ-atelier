@@ -299,6 +299,88 @@ function App() {
               <div className="team-caption"><strong>02 / 07</strong><span>Studio, Hà Nội</span></div>
             </div>
           </div>
+            <div className="team-members">
+    <div className="team-members">
+
+  <div className="team-member">
+    <div className="team-member-photo">
+      <img
+        src="https://images.pexels.com/photos/27126205/pexels-photo-27126205.jpeg?auto=compress&cs=tinysrgb&w=600"
+        alt="Nguyễn Minh Quân"
+      />
+    </div>
+
+    <div className="team-member-main">
+      <span className="team-member-number">01</span>
+
+      <div>
+        <h3>Nguyễn Minh Quân</h3>
+        <span>Creative Director / Architect</span>
+      </div>
+    </div>
+  </div>
+
+
+  <div className="team-member">
+    <div className="team-member-photo">
+      <img
+        src="https://images.pexels.com/photos/30712825/pexels-photo-30712825.jpeg?auto=compress&cs=tinysrgb&w=600"
+        alt="Trần Hà Linh"
+      />
+    </div>
+
+    <div className="team-member-main">
+      <span className="team-member-number">02</span>
+
+      <div>
+        <h3>Trần Hà Linh</h3>
+        <span>Interior Designer</span>
+      </div>
+    </div>
+  </div>
+
+
+  <div className="team-member">
+    <div className="team-member-photo">
+      <img
+        src="https://images.pexels.com/photos/15336911/pexels-photo-15336911.jpeg?auto=compress&cs=tinysrgb&w=600"
+        alt="Lê Hoàng Nam"
+      />
+    </div>
+
+    <div className="team-member-main">
+      <span className="team-member-number">03</span>
+
+      <div>
+        <h3>Lê Hoàng Nam</h3>
+        <span>Project Architect</span>
+      </div>
+    </div>
+  </div>
+
+
+  <div className="team-member">
+    <div className="team-member-photo">
+      <img
+        src="https://images.pexels.com/photos/20419354/pexels-photo-20419354.jpeg?auto=compress&cs=tinysrgb&w=600"
+        alt="Phạm Khánh Vy"
+      />
+    </div>
+
+    <div className="team-member-main">
+      <span className="team-member-number">04</span>
+
+      <div>
+        <h3>Phạm Khánh Vy</h3>
+        <span>Project Coordinator</span>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+  </div>
+
         </section>
 
         <section className="clients section">
@@ -315,7 +397,69 @@ function App() {
             <div className="testimonial-meta"><span>MINH AN & THUỶ</span><span>— House of Quiet, 2024</span></div>
           </div>
         </section>
+<section className="testimonials" id="testimonials">
+  <div className="testimonials-head">
+    <p className="eyebrow">08 / TESTIMONIALS</p>
 
+    <h2>
+      Những gì
+      <br />
+      <em>khách hàng nói.</em>
+    </h2>
+  </div>
+
+  <div className="testimonial-list">
+
+    <article className="testimonial-item">
+      <div className="testimonial-number">01</div>
+
+      <div className="testimonial-content">
+        <blockquote>
+          K-Quan không chỉ giúp chúng tôi có một không gian đẹp,
+          mà còn hiểu rất rõ cách gia đình muốn sống trong căn nhà đó.”
+        </blockquote>
+
+        <div className="testimonial-author">
+          <strong>Minh Anh</strong>
+          <span>Chủ đầu tư · Private Residence</span>
+        </div>
+      </div>
+    </article>
+
+    <article className="testimonial-item">
+      <div className="testimonial-number">02</div>
+
+      <div className="testimonial-content">
+        <blockquote>
+          “Điều chúng tôi đánh giá cao nhất là cách đội ngũ
+          kiểm soát từng chi tiết từ concept đến thi công.”
+        </blockquote>
+
+        <div className="testimonial-author">
+          <strong>Tuấn Nguyễn</strong>
+          <span>Founder · Hospitality Project</span>
+        </div>
+      </div>
+    </article>
+
+    <article className="testimonial-item">
+      <div className="testimonial-number">03</div>
+
+      <div className="testimonial-content">
+        <blockquote>
+          “Một quy trình làm việc rõ ràng, trao đổi nhanh và
+          đặc biệt là sự nhất quán trong từng quyết định thiết kế.”
+        </blockquote>
+
+        <div className="testimonial-author">
+          <strong>Hà Linh</strong>
+          <span>Client · Interior Project</span>
+        </div>
+      </div>
+    </article>
+
+  </div>
+</section>
         <section className="cta" id="contact">
           <div className="cta-no">07 / 09</div>
           <div className="cta-content">

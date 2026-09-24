@@ -1120,6 +1120,181 @@ a {
     text-align: right;
 }
 
+/* TESTIMONIALS */
+
+.testimonials {
+    padding: 150px 7vw;
+    background: #f1efe9;
+    color: #171713;
+}
+
+.testimonials-head {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 40px;
+    margin-bottom: 100px;
+}
+
+.testimonials-head h2 {
+    margin: 0;
+
+    font-size: clamp(52px, 6vw, 90px);
+    line-height: 1.08;
+    letter-spacing: -.055em;
+    font-weight: 500;
+}
+
+.testimonials-head h2 em {
+    font-family: "Playfair Display", serif;
+    font-weight: 500;
+}
+
+.testimonial-list {
+    border-top: 1px solid #aaa79f;
+}
+
+.testimonial-item {
+    display: grid;
+    grid-template-columns: 120px 1fr;
+
+    padding: 55px 0;
+
+    border-bottom: 1px solid #aaa79f;
+}
+
+.testimonial-number {
+    font-family: "DM Mono", monospace;
+    font-size: 10px;
+    letter-spacing: .08em;
+    color: #77746c;
+}
+
+.testimonial-content {
+    max-width: 850px;
+}
+
+.testimonial-content blockquote {
+    margin: 0;
+
+    font-family: "Playfair Display", serif;
+    font-size: clamp(27px, 3vw, 42px);
+    line-height: 1.25;
+    letter-spacing: -.025em;
+}
+
+.testimonial-author {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+    margin-top: 35px;
+}
+
+.testimonial-author strong {
+    font-family: "DM Mono", monospace;
+    font-size: 10px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: .08em;
+}
+
+.testimonial-author span {
+    font-family: "DM Mono", monospace;
+    font-size: 9px;
+    text-transform: uppercase;
+    letter-spacing: .06em;
+    color: #77746c;
+}
+.team-members {
+    margin-top: 80px;
+    border-top: 1px solid #aaa79f;
+}
+
+.team-member {
+    display: grid;
+    grid-template-columns: 150px 1fr;
+    gap: 35px;
+
+    padding: 28px 0;
+
+    border-bottom: 1px solid #aaa79f;
+
+    transition: padding-left .3s ease;
+}
+
+.team-member:hover {
+    padding-left: 12px;
+}
+
+.team-member-photo {
+    width: 150px;
+    height: 190px;
+
+    overflow: hidden;
+
+    background: #ddd;
+}
+
+.team-member-photo img {
+    width: 100%;
+    height: 100%;
+
+    object-fit: cover;
+
+    filter: grayscale(100%);
+
+    transition: transform .5s ease;
+}
+
+.team-member:hover .team-member-photo img {
+    transform: scale(1.03);
+}
+
+.team-member-main {
+    display: grid;
+    grid-template-columns: 70px 1fr;
+
+    align-items: center;
+
+    gap: 30px;
+}
+
+.team-member-number {
+    align-self: start;
+
+    padding-top: 5px;
+
+    font-family: "DM Mono", monospace;
+    font-size: 9px;
+    letter-spacing: .08em;
+
+    color: #77746c;
+}
+
+.team-member-main h3 {
+    margin: 0;
+
+    font-family: "Playfair Display", serif;
+    font-size: 30px;
+    font-weight: 500;
+
+    letter-spacing: -.02em;
+}
+
+.team-member-main div > span {
+    display: block;
+
+    margin-top: 8px;
+
+    font-family: "DM Mono", monospace;
+    font-size: 9px;
+
+    text-transform: uppercase;
+    letter-spacing: .08em;
+
+    color: #77746c;
+}
+
 
 @media(max-width:800px) {
     .header {
@@ -1452,5 +1627,43 @@ a {
 
 .project-modal-info p {
     text-align: left;
+}
+.team-members {
+    margin-top: 55px;
+}
+
+.team-member {
+    grid-template-columns: 90px 1fr;
+    gap: 18px;
+
+    padding: 22px 0;
+}
+
+.team-member-photo {
+    width: 90px;
+    height: 120px;
+}
+
+.team-member-main {
+    grid-template-columns: 35px 1fr;
+    gap: 10px;
+
+    align-items: start;
+}
+
+.team-member-number {
+    padding-top: 4px;
+    font-size: 8px;
+}
+
+.team-member-main h3 {
+    font-size: 22px;
+    line-height: 1.1;
+}
+
+.team-member-main div > span {
+    margin-top: 7px;
+    font-size: 8px;
+    line-height: 1.5;
 }
 }
