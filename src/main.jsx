@@ -510,7 +510,7 @@ function App() {
           </div>
           <div className="footer-col">
             <span className="footer-label">SOCIAL</span>
-            <div className="socials"><a href="#"><Instagram size={17}/></a><a href="#"><Facebook size={17}/></a><a href="#"><Linkedin size={17}/></a></div>
+            <div className="socials"><a href="https://www.instagram.com/kquan_atelier/" target="_blank" rel="noopener noreferrer"><Instagram size={17}/></a><a href="https://www.facebook.com/wuankdei" target="_blank" rel="noopener noreferrer"><Facebook size={17}/></a><a href="https://www.linkedin.com/in/qu%C3%A2n-l%C3%AA-904373350/" target="_blank" rel="noopener noreferrer"><Linkedin size={17}/></a></div>
           </div>
         </div>
         <div className="footer-bottom">
